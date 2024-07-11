@@ -23,6 +23,4 @@ $ cast call --rpc-url=https://api.avax.network/ext/bc/C/rpc 0x88afdaE1a9F58Da3E6
 ### Calling a setter will consume gas, so we have to specify our private key:
 ```
 $ cast send --rpc-url=https://api.avax.network/ext/bc/C/rpc 0x88afdaE1a9F58Da3E68584421937E5F564A0135b "withdraw(uint256)" "10" --private-key $PRIVKEY
-
-$ cast call --rpc-url=https://api.avax.network/ext/bc/C/rpc 0x88afdaE1a9F58Da3E68584421937E5F564A0135b "balanceOf(address)" "0x8C26fb2DaF4790311DF4e9AAA87b356a8a9bd214"
 ```
